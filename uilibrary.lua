@@ -627,7 +627,7 @@ function library:CreateWindow(name, size, hidebutton)
             sector.LabelBackFrame.ZIndex = 5
             sector.LabelBackFrame.Size = UDim2.fromOffset(sector.Label.Size.X.Offset, 10)
             sector.LabelBackFrame.BorderSizePixel = 0
-            sector.LabelBackFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            sector.LabelBackFrame.BackgroundColor3 = Color3.fromRGB(55, 47, 63)
             sector.LabelBackFrame.Position = UDim2.fromOffset(sector.Label.Position.X.Offset, sector.BlackOutline2.Position.Y.Offset)
 
             sector.Items = Instance.new("Frame", sector.Main) 
@@ -3577,7 +3577,7 @@ function library:CreateWindow(name, size, hidebutton)
             list.LabelBackFrame.ZIndex = 3
             list.LabelBackFrame.Size = UDim2.fromOffset(list.Label.Size.X.Offset, 10)
             list.LabelBackFrame.BorderSizePixel = 0
-            list.LabelBackFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            list.LabelBackFrame.BackgroundColor3 = Color3.fromRGB(55, 47, 63)
             list.LabelBackFrame.Position = UDim2.fromOffset(0, 6)
 
             list.Items = Instance.new("ScrollingFrame", list.Main) 
