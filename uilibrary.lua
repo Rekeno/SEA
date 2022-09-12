@@ -3380,7 +3380,7 @@ function library:CreateWindow(name, size, hidebutton)
                 sector.LabelBackFrame.ZIndex = 7
                 sector.LabelBackFrame.Size = UDim2.fromOffset(textSize.X + 12, 10)
                 sector.LabelBackFrame.BorderSizePixel = 0
-                sector.LabelBackFrame.BackgroundColor3 = Color3.fromRGB(355, 47, 63)
+                sector.LabelBackFrame.BackgroundColor3 = Color3.fromRGB(55, 47, 63)
                 sector.LabelBackFrame.Position = UDim2.new(0, textStart - 6, 0, 0)
                 updateevent.Event:Connect(function(theme)
                     textSize = textservice:GetTextSize(seperator.text, theme.fontsize, theme.font, Vector2.new(2000, 2000))
