@@ -2667,15 +2667,6 @@ function library:CreateWindow(name, size, hidebutton)
                                 end
     
                                 return
-                            else
-                                dropdown.Nav.Rotation = 90
-                                dropdown.ItemsFrame.Visible = false
-                                dropdown.ItemsFrame.Active = false
-                                dropdown.OutlineItems.Visible = false
-                                dropdown.BlackOutlineItems.Visible = false
-                                dropdown.BlackOutline2Items.Visible = false
-                                dropdown.IgnoreBackButtons.Visible = false
-                                dropdown.IgnoreBackButtons.Active = false
                             end
     
                             dropdown:Set(v)
