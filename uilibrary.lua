@@ -235,10 +235,10 @@ function library:CreateWindow(name, size, hidebutton)
         syn.protect_gui(window.Main)
     end
 
-    if getgenv().uilib then
-        getgenv().uilib:Remove()
+    if getgenv().seagui then
+        getgenv().seagui:Remove()
     end
-    getgenv().uilib = window.Main
+    getgenv().seagui = window.Main
 
     local dragging, dragInput, dragStart, startPos
     uis.InputChanged:Connect(function(input)
