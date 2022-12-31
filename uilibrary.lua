@@ -82,11 +82,6 @@ function library:CreateWatermark(name, position)
     if syn then
         syn.protect_gui(watermark.main)
     end
-
-    if getgenv().watermark then
-        getgenv().watermark:Remove()
-    end
-    getgenv().watermark = watermark.main
     
     watermark.mainbar = Instance.new("Frame", watermark.main)
     watermark.mainbar.Name = "Main"
